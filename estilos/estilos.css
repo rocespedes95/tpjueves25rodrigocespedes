@@ -12,45 +12,33 @@ h1{
 body{
   background-color: #d4a373;
 }
+.bodyIndex{
+  background-image: url(/imagenes/fondo\ index.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
 /*NAVEGADOR INDEX*/
 
-.headear{
-display: flex;
-display: inline-flex;
-margin: 0;
+
+.navegadorIndex{
+  background-color: #0582ca !important;
+  border-radius: 4px;
+  
 }
 
-.nav-lista{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5rem;
-  justify-content: center;
-  align-items: center;
-  
-  height: 150px;
-  
-  
-}
-.nav-lista li a {
-  text-decoration: none;
-  font-size: 40px;
-  
+
+
+.navIndex a{
+  color: #ffea00;
+  font-size: 35px;
 }
 
 
 
 /*MAIN INDEX*/
-.carrusel{
 
-  
-  
-}
-.mainPadre{
-  align-items: center;
-  justify-content: center;
-  margin-top: 60px;
-  margin-left: 50%;
-}
+
 
 
 /*VIDEO*/
